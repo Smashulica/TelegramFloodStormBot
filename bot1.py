@@ -12,7 +12,7 @@ from past.builtins import execfile
 execfile('script.py')
         
 def main():
-    updater = Updater('Your Token') #Inserisci il tuo token al posto di: Your Token.
+    updater = Updater('2043167587:AAH7AIpi8NF70ElMOpBPFsQKmMfXL0aT8-8') #Inserisci il tuo token al posto di: Your Token.
  
     updater.dispatcher.add_handler(CommandHandler('start', start))
     updater.dispatcher.add_handler(CommandHandler('flodd', flodd))
